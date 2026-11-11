@@ -1,13 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="./CSS/main.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <title>Jahongir Website</title>
 </head>
+
 <body>
-    
+
+    <header class="header">
+        <div class="container">
+            <div class="header-container">
+
+                <a href="#" class="logo">
+                    <img src="./IMG JAXONGIR/Frame 2.png" alt="Logo">
+                </a>
+
+                <nav class="navigation" id="navigation">
+                    <ul class="header-list">
+                        <li><a href="#">Услуги</a></li>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Блог</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+
+                    <ul class="header-list-btn">
+                        <li>
+                            <a href="#" aria-label="Search">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" aria-label="Favorites">
+                                <i class="fa-regular fa-heart"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="tel:+998901234567" aria-label="Phone">
+                                <i class="fa-solid fa-phone"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+            </div>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <div class="hero-container">
+                <h1 class="hero-title">Infinity</h1>
+                <p>от $500 000</p>
+                <button class="hero-btn"><a class="hero-link" href="#">Оставить заявку</a></button>
+                <button class="hero-btn2"><a class="hero-link2" href="#">Позвонить</a></button>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="section-container">
+                <ul class="section-list">
+                    <li class="section-item"><a class="section-link" href="#">О комплексе</a></li>
+                    <li class="section-item"><a class="section-link" href="#">Галерея</a></li>
+                    <li class="section-item"><a class="section-link" href="#">Планировки</a></li>
+                    <li class="section-item"><a class="section-link" href="#">Условия покупки</a></li>
+                    <li class="section-item"><a class="section-link" href="#">Инфраструктура</a></li>
+                    <li class="section-item"><a class="section-link" href="#">Отзывы</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <main class="main">
+        <div class="container">
+            <div class="main-container">
+                <ul class="main-list">
+                    <li class="main-item">
+                        <h2 class="main-title">Infinity Клубный дом</h2>
+                        <button class="main-btn">Позвонить</button>
+                    </li>
+                    <li class="main-item-text">
+                       <p class="main-text">Дом имеет свой приватный, закрытый двор, с несколькими зонами отдыха для
+                        взрослых и детей. Отдельно предусмотрено помещение для консьержа и охраны. Из окон квартир
+                        открывается вид на эксклюзивный ландшафтный двор-парк общей площадью более 1 Га, с прогулочными
+                        аллеями, водными объектами и летним кинотеатром.</p>
+                    </li>
+                </ul>
+                <img src="./IMG JAXONGIR/main.png" alt="">
+            </div>
+        </div>
+    </main>
+
+
     <script src="./js/main.js"></script>
 </body>
+
 </html>
